@@ -1,0 +1,101 @@
+
+body{
+    background-color: #010101;
+    color: white;
+}
+.toppp{
+    padding-top: 15px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 6.25rem;
+}
+.topp{
+    display: inline;
+}
+.header2{
+    text-align: center;
+    padding-top: 6.25rem;
+}
+.hidd{
+    display: none;
+}
+.appl{
+    padding-top: 70px;
+}
+
+.agree{
+    display: inline;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.38px;
+    color: #BDBDBD;
+}
+.green{
+    color: rgb(0, 129, 0);
+}
+.emm{
+    text-align: center;
+}
+
+.emm1{
+    width: 300px;
+    border-color: white;
+    background-color: #010101;
+    color: white;
+    border-radius: 0px;
+    outline: none;
+    height: 46px;
+}
+
+.emm2{
+    border-color: white;
+    background-color: #010101;
+    color: white;
+    border-radius: 0px;
+    margin-top: 15px;
+}
+
+.emm3{
+    width: 300px;
+    border-color: #010101;
+    background-color: white;
+    color: #010101;
+    border-radius: 10px;
+    outline: none;
+    height: 46px;
+}
+.emm3:hover{
+    border-color: #BDBDBD;
+    background-color: #BDBDBD;
+    color: #010101;
+}
+.emm3:active{
+    border-color: #010101;
+    background-color: white;
+    color: #010101;
+}
+
+.feat{
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .flex-container{
+        display: block;
+        text-align: center;
+    }
+    .hidd{
+        display: block;
+    }
+    .apple{
+        text-align: center;
+    }
+    .appl{
+        padding-top: 70px;
+    }
+}
